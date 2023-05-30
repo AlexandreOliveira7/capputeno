@@ -6,17 +6,20 @@ import { styled } from "styled-components";
 const CartCounte = styled.span`
   width: 17px;
   height: 17px;
+  border-radius: 100%;
+  padding: 0 5px;
+  font-size: 10px;
+
   
   background-color: var(--delete-color);
-  color: red;
+  color: white;
   
-  position: absolute;
-  right: -10px;
-  top: 50%;
+ margin-left: -10px;
 `
 
 const Container = styled.div`
   position: relative;
+  
 `
 
 export function CartControl() {
@@ -25,8 +28,8 @@ export function CartControl() {
   return(
     <Container>
       <CartIcon />
-      {value.length && <CartCounte>value.length</CartCounte
-      >}
+      {value.length && <CartCounte>value.length </CartCounte> }
+     
     </Container>
   )
 }
