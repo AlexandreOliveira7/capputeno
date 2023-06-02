@@ -1,10 +1,14 @@
 :root {
   --border-radius: 12px;
   --logo-color: #5d5d6d;
+  --bg-primary: #f0f0f5;
   --bg-secundary: #F3F5F6;
   --text-dark: #737380;
   --delete-color: #de3838;
   --orange-low: #FFA585;
+  --text-dark-2: #41414d;
+  --shapes-dark: #090909;
+  --shapes: #a9a9a9;
 }
 * {
   box-sizing: border-box;
