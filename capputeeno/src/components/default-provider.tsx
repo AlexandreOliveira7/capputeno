@@ -10,7 +10,8 @@ interface DefaultProviderProps {
 }
 
 const theme = {
-  desktoBreakpoint: "968px"
+  desktoBreakpoint: "968px",
+  tableBreakpoint: "968px"
 }
 
 export function DefaultProviders({ children } : DefaultProviderProps) {
